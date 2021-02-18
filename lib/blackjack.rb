@@ -1,3 +1,5 @@
+require "pry"
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -28,8 +30,7 @@ end
 
 def initial_round
   deal_card
-  
-  return sum
+  binding.pry
 end
 
 def hit?
