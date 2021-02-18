@@ -26,7 +26,7 @@ def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round(deal_card)
   sum=0
   hit_one=0
   hit_two=0
