@@ -36,7 +36,6 @@ end
 
 def hit?(total)
   # code hit? here
-  card_total=initial_round
   prompt_user
   user_input=get_user_input
   if user_input=="s"
