@@ -28,6 +28,8 @@ end
 
 def initial_round
   sum=0
+  hit_one=0
+  hit_two=0
   deal_card=hit_one
   deal_card=hit_two
   hit_two+hit_one=sum
