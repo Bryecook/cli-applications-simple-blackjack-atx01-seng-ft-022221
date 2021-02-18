@@ -28,7 +28,9 @@ end
 
 def initial_round
   sum=0
-  deal_card+deal_card=sum
+  deal_card=hit_one
+  deal_card=hit_two
+  hit_two+hit_one=sum
   return sum
 end
 
