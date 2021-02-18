@@ -29,8 +29,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  deal_card=first_card
-  deal_card=second_card
+  
   binding.pry
 end
 
