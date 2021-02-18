@@ -30,7 +30,7 @@ end
 
 def initial_round
   deal_card
-  binding.pry
+  binding
 end
 
 def hit?
